@@ -3,9 +3,9 @@ module "firewall_sakon" {
   version = "0.0.1"
 
   network_name = "default"
-  project_id = "alien-paratext-855"
-        rules = [{
-    name                    = "allow-ssh-ingress"
+  project_id   = "alien-paratext-855"
+  rules = [{
+    name                    = "allow-ssh-ingress-sakon"
     description             = null
     direction               = "INGRESS"
     priority                = null
